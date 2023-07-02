@@ -234,7 +234,7 @@ def plotInitFig(epsilon, coords, azimuth, q0=None):
     
         # 3D
         fig = Figure(dpi=200)
-        fig.set_figwidth(2)
+        fig.set_figwidth(3)
         fig.subplots_adjust(left=0, right=1, bottom=0, top=1)
         
         ax = fig.add_subplot(111, projection='3d')
